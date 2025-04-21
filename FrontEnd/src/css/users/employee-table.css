@@ -1,0 +1,249 @@
+.selected-row {
+  background-color: #f1ffef;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  z-index: 3;
+  width: 100%;
+  margin-top: 0px;
+  background-color: #f5f5f5;
+  height: 56px;
+  /* border: 1px solid black; */
+}
+.footer-container {
+  /* border-top: 2px solid #e0e0e0; */
+  padding: 5px 16px;
+  width: 100%;
+}
+
+.td_idCard {
+  min-width: 100px;
+}
+
+.k-dropdown {
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 10px;
+  /* height: 26px; */
+  min-width: 76px;
+  height: 36px;
+  text-align: left;
+  box-sizing: border-box;
+  /* position: relative; */
+  cursor: pointer;
+}
+
+.k-dropdown2 {
+  width: 100%;
+  height: 36px;
+  padding: 0px 12px;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  border-radius: 3px;
+  text-align: left;
+  cursor: pointer;
+}
+/* // khi ấn vào nút thì nó sẽ hiển thị cho cái thằng dưới */
+.k-dropdown:focus {
+}
+.dropList {
+  bottom: 20px;
+  /* min-width: 300px; */
+}
+.dropList2 {
+  top: 20px;
+  width: 100%;
+}
+.dropList,
+.dropList2 {
+  border: 1px solid #e6e6e6;
+  width: 85%;
+  list-style: none;
+  padding: 8px;
+  box-sizing: border-box;
+  position: absolute;
+
+  /* display: none; */
+  background-color: #ffffff;
+  /* right: 0; */
+  /* left: 0; */
+  /* top: 0; */
+}
+
+.dropItem {
+  padding: 10px 3px;
+}
+.dropItem:hover {
+  cursor: pointer;
+  background-color: rgba(80, 184, 60, 0.1);
+  border-radius: 4px;
+}
+
+.select-container {
+  display: flex;
+  /* justify-self: center; */
+  align-items: center;
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #e6e6e6;
+  /* width: 175px; */
+}
+
+.icon-container {
+  background: url(../../../public/assets/Sprites.64af8f61.svg) no-repeat -1129px -365px;
+  width: 13px;
+  height: 8px;
+  margin-left: 4px;
+}
+
+.add_person {
+  background: url(../../../public/assets/Sprites.64af8f61.svg) no-repeat -986px -202px;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.tableFixHead {
+  white-space: nowrap;
+  margin: 0;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+/* .tableFixHead::-webkit-scrollbar {
+  position: absolute;
+  left: 200px;
+} */
+.title-header-right {
+  display: flex;
+}
+
+.setting {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  z-index: 10;
+  width: 312px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  /* border: 1px solid #e0e0e0; */
+}
+.setting-content {
+  position: relative;
+  /* border: 1px solid black; */
+  height: 500px;
+}
+.setting-content_header {
+  justify-content: space-between;
+}
+.setting-content_header {
+  justify-content: space-between;
+}
+
+.cth-right {
+  font-size: 20px;
+  font-weight: bold;
+}
+.setting-content_footer {
+  border: 1px solid #e0e0e0;
+  background-color: #f5f5f5;
+  padding: 8px 0;
+  position: absolute;
+  width: 100%;
+  justify-content: flex-end;
+  bottom: 0;
+}
+
+.setting-content_header-first {
+  padding: 16px;
+  /* height: 500px; */
+}
+.tbody-loading {
+  height: 50vh;
+  width: 100%;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+.loading {
+  width: 50px;
+  height: 50px;
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+.ellipsis {
+  padding: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  background: #ffff;
+}
+.content {
+  background-color: #fff;
+  position: relative;
+  min-height: 80vh;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 4px 2.6px;
+}
+
+@media only screen and (min-width: 1800px) {
+  .content {
+    /* background-color: red; */
+    min-height: 85vh;
+  }
+}
+
+.search-customise-column {
+  padding-left: 40px;
+  margin-top: 0;
+  width: 100%;
+}
+.icon-search-customise {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+}
+
+.head {
+  padding: 10px 19px 10px 17px;
+}
+.customise-search {
+  margin: 20px 0 0 0;
+}
+
+.dropdown {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+
+.choose-company {
+  margin-left: 30px;
+  width: 100%;
+  margin-top: 0;
+}
+
+.unborder {
+  border: unset;
+}
+
+.searchV1 {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  padding-right: 35px;
+}
+
+.searchNotFound {
+  height: 50%;
+}

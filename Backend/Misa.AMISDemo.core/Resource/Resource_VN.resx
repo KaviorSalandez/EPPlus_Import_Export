@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>Số Tài Khoản</value>
+  </data>
+  <data name="Authorize" xml:space="preserve">
+    <value>Bạn không có quyền truy cập</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>Tên Ngân Hàng</value>
+  </data>
+  <data name="CheckRepository" xml:space="preserve">
+    <value>Repository bị null</value>
+  </data>
+  <data name="CodeCreated" xml:space="preserve">
+    <value>Customer Code đã được tạo</value>
+  </data>
+  <data name="CustomerGroup_Name" xml:space="preserve">
+    <value>Tên nhóm khách hàng đã được tạo</value>
+  </data>
+  <data name="DepartmentName" xml:space="preserve">
+    <value>Tên Đơn Vị</value>
+  </data>
+  <data name="Department_Name" xml:space="preserve">
+    <value>Tên đơn vị đã được tạo</value>
+  </data>
+  <data name="DescriptionAuthorize" xml:space="preserve">
+    <value>JWT Authorization header using  your token in the text input below \n\n" +
+        "Example: \"Bearer 1234asdfa\"</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>Ngày Sinh</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email không được trống</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="EmployeeCode" xml:space="preserve">
+    <value>Mã Nhân Viên đã được tạo</value>
+  </data>
+  <data name="EmployeeCodeVN" xml:space="preserve">
+    <value>Mã Nhân Viên</value>
+  </data>
+  <data name="EmptyFile" xml:space="preserve">
+    <value>File Import không được rỗng</value>
+  </data>
+  <data name="ExcelNameEmployee" xml:space="preserve">
+    <value>Danh sách nhân viên</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="FindAccount" xml:space="preserve">
+    <value>Không tìm thấy người dùng</value>
+  </data>
+  <data name="FindDepartment" xml:space="preserve">
+    <value>Không tìm thấy đơn vị</value>
+  </data>
+  <data name="FindObject" xml:space="preserve">
+    <value>Không tìm thấy đối tượng </value>
+  </data>
+  <data name="FindPosition" xml:space="preserve">
+    <value>Không tìm thấy vị trí</value>
+  </data>
+  <data name="FindRefreshToken" xml:space="preserve">
+    <value>Mã refresh token không tồn tại</value>
+  </data>
+  <data name="FormatFileExcel" xml:space="preserve">
+    <value>File được tải phải định dạng .xlxs</value>
+  </data>
+  <data name="Fullname" xml:space="preserve">
+    <value>Tên Nhân Viên</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Giới Tính</value>
+  </data>
+  <data name="IDCard" xml:space="preserve">
+    <value>Trùng số tài khoản với nhân viên khác trong hệ thống </value>
+  </data>
+  <data name="IdImport" xml:space="preserve">
+    <value>Id để import không được null</value>
+  </data>
+  <data name="Invalid" xml:space="preserve">
+    <value>Hợp Lệ</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="OrdinalNumber" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mật khẩu không được để trống</value>
+  </data>
+  <data name="PositionName" xml:space="preserve">
+    <value>Tên Vị trí</value>
+  </data>
+  <data name="Position_Name" xml:space="preserve">
+    <value>Tên vị trí đã được tạo</value>
+  </data>
+  <data name="RefreshTokenExpire" xml:space="preserve">
+    <value>Refresh token đã hết hạn</value>
+  </data>
+  <data name="SingInFail" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không đúng</value>
+  </data>
+  <data name="titleExcel" xml:space="preserve">
+    <value>DANH SÁCH NHÂN VIÊN</value>
+  </data>
+  <data name="TokenInvalid" xml:space="preserve">
+    <value>Token không hợp lệ</value>
+  </data>
+  <data name="TokenMatch" xml:space="preserve">
+    <value>Không tương ứng thông tin access token trong refresh token</value>
+  </data>
+  <data name="UsgMessage" xml:space="preserve">
+    <value>Lỗi nhập từ người dùng</value>
+  </data>
+  <data name="ValidateId" xml:space="preserve">
+    <value>ID không tìm thấy</value>
+  </data>
+</root>

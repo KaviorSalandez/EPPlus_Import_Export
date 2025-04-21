@@ -1,0 +1,77 @@
+.toast-position {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+}
+.k-error {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body-el {
+  margin-left: 8px;
+  width: 300px;
+}
+
+/* Style for the modal */
+
+.modal-content-validationToast {
+  background-color: #fff;
+  width: 400px;
+  min-height: 7%;
+  border-radius: 4px;
+
+  animation: toast 1s ease-in-out;
+}
+
+@keyframes toast {
+  0% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* Style to hide the default scrollbar when modal is open */
+body.modal-openVali {
+  overflow: hidden;
+}
+
+.error-register {
+  width: 100%;
+
+  height: 100%;
+  padding: 4px 16px;
+}
+/* Style to hide the default scrollbar when modal is open */
+body.modal-openVali {
+  overflow: hidden;
+}
+.error {
+  background: url("../public/assets/Sprites.64af8f61.svg") no-repeat -752px -462px;
+  width: 36px;
+  height: 36px;
+}
+.icon-info {
+  background: url("../public/assets/Sprites.64af8f61.svg") no-repeat -672px -462px;
+  width: 36px;
+  height: 36px;
+}
+.icon-success {
+  background: url("../public/assets/Sprites.64af8f61.svg") no-repeat -990px -462px;
+  width: 36px;
+  height: 36px;
+}

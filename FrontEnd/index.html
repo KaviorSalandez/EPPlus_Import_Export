@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/public/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @font-face {
+        font-family: "NotoSansBold";
+        src: url("./public/assets/fonts/notosans-regular.2cb88a13.woff2")
+          format("woff2");
+      }
+
+      body,
+      input[type="date"] {
+        font-family: "NotoSansBold", sans-serif;
+        font-size: 14px;
+        color: black;
+      }
+
+      input[type="checkbox"] {
+        background-color: #f00;
+      }
+      body {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        /* background-color: #eeeff1; */
+      }
+      #app {
+        width: 100%;
+      }
+    </style>
+    <title>Phần Mềm Kế Toán</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

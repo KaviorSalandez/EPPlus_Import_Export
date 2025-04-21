@@ -1,0 +1,94 @@
+.k-button,
+.k-buttonGray,
+.hoverGray {
+  min-width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ffff;
+  padding: 8px 10px;
+  border: unset;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+}
+
+.hoverGray {
+  border: unset;
+}
+
+.hoverGray:active,
+.hoverGray:focus {
+  background-color: #e0e0e0;
+}
+
+.hoverGray:hover {
+  background-color: #e0e0e0;
+}
+
+.k-buttonGray {
+  color: black;
+  background-color: #ffff;
+}
+button {
+  cursor: pointer;
+}
+.buttonHover:hover {
+  background-color: #57c841;
+  cursor: pointer;
+}
+.k-button {
+  color: #fff;
+}
+#testGray {
+  background-color: #e0e0e0;
+}
+
+.borderNone {
+  border: 1px solid #e0e0e0;
+}
+
+.common-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common-display-align {
+  display: flex;
+  align-items: center;
+}
+.title-header {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: bolder;
+  color: #1f1f20;
+}
+.green {
+  margin-left: 12px;
+  background-color: #50b83c;
+  color: #fff;
+  border: unset;
+}
+.k-button:active,
+.k-buttonGray:active {
+  background-color: #067933;
+  color: #fff;
+  border: unset;
+}
+.k-buttonBlue {
+  margin-left: 0;
+  background: #0073e6;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.hoverBlue:hover {
+  background: #384fd5;
+}
+/* .k-button {
+  background-color: white;
+  color: black;
+}
+. */
+/* 
+ */

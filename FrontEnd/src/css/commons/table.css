@@ -1,0 +1,287 @@
+/* table thead th {
+  position: sticky;
+
+  top: 0px;
+  z-index: 2;
+  width: 20vw;
+} */
+
+table thead .standAlone {
+  position: sticky;
+  left: 0px;
+  z-index: 3;
+}
+table tbody .standAlone {
+  position: sticky;
+
+  left: 0px;
+  z-index: 2;
+}
+table thead .standAlonePin {
+  position: sticky;
+  z-index: 3;
+}
+table tbody .standAlonePin {
+  /* background-color: #ffff; */
+  position: sticky;
+  z-index: 2;
+}
+.standAloneBackground {
+  background-color: #ffff;
+}
+.standAloneBackgroundGreen {
+  background-color: #f1ffef;
+}
+
+caption {
+  text-align: left;
+  padding: 0.25rem;
+  position: sticky;
+  left: 0px;
+}
+table {
+  border-collapse: separate; /* make the table borders collapse to each other */
+  border-spacing: 0px;
+  width: 100%;
+}
+
+th,
+td,
+.hover_table {
+  height: 48px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 8px 16px;
+}
+tr,
+th,
+td {
+  border: 1px solid #d9d9d9;
+}
+/* th,
+td {
+  border: 1px solid #d9d9d9;
+} */
+
+th {
+  background: #eee;
+}
+
+tr {
+  cursor: pointer;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+[role="region"][aria-labelledby][tabindex] {
+  width: 100%;
+  /* max-height: 30vh; */
+  height: 550px;
+  overflow: auto;
+  /* overflow-x: scroll; */
+}
+@media only screen and (min-width: 1800px) {
+  [role="region"][aria-labelledby][tabindex] {
+    height: 74vh;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
+  [role="region"][aria-labelledby][tabindex] {
+    height: 65vh;
+  }
+}
+[role="region"][aria-labelledby][tabindex]:focus {
+  /* box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5); */
+  outline: 0;
+}
+
+/* Ẩn biểu tượng khi chưa hover */
+.action-cell img {
+  display: none;
+}
+
+/* Hiển thị biểu tượng khi hover */
+tr:hover .action-cell img {
+  display: block;
+}
+.k-checkbox2 {
+  padding: 0px 16px;
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  /* text-align: center; */
+}
+.hover_setting:hover,
+.active_setting {
+  background-color: #f1ffef;
+  z-index: 10;
+}
+.active_setting {
+  z-index: 10;
+}
+
+.ellipsis {
+  position: absolute;
+  top: -28px;
+  left: 81vw;
+  border: 1px solid #e0e0e0;
+  background-color: #ffff;
+  border-radius: 20px;
+  padding: 8px;
+  cursor: pointer;
+  z-index: 1;
+}
+.ellipsisSidebar {
+  left: calc(81vw + 5vw);
+}
+.edit {
+  position: absolute;
+  top: -28px;
+  left: 78vw;
+  border: 1px solid #e0e0e0;
+  background-color: #ffff;
+  border-radius: 20px;
+  padding: 6px;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.editSidebar {
+  left: calc(78vw + 5vw);
+}
+.context-menu {
+  position: sticky;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 150px;
+  min-height: 100px;
+  margin-top: 50px;
+  /* padding: 10px; */
+  background-color: #ffffff !important;
+  z-index: 10;
+}
+.context-menu ul {
+  list-style: none;
+  /* padding: 5; */
+  padding: 0;
+  margin: 0;
+
+  /* line-height: 10px; */
+}
+.context-menu ul li:hover {
+  background-color: #e0e0e0;
+}
+.context-menu ul li {
+  /* padding: 10px; */
+  border-radius: 4px;
+}
+
+.grandAction {
+  position: absolute;
+  top: -40px;
+  left: 75vw;
+}
+.grandActionSidebar {
+  left: calc(75vw + 5vw);
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
+  .grandAction {
+    left: 71vw;
+  }
+  .edit {
+    left: 74vw;
+  }
+  .ellipsis {
+    left: 78vw;
+  }
+
+  .grandActionSidebar {
+    left: calc(71vw + 5vw);
+  }
+  .ellipsisSidebar {
+    left: calc(78vw + 5vw);
+  }
+  .editSidebar {
+    left: calc(74vw + 5vw);
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .grandAction {
+    left: 79vw;
+  }
+  .edit {
+    left: 81vw;
+  }
+  .ellipsis {
+    left: 84vw;
+  }
+
+  .grandActionSidebar {
+    left: calc(79vw + 5vw);
+  }
+  .ellipsisSidebar {
+    left: calc(84vw + 5vw);
+  }
+  .editSidebar {
+    left: calc(81vw + 5vw);
+  }
+}
+.center {
+  text-align: center;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+}
+
+.employeeCode {
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+}
+.employeeName {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.genderColumn {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+}
+.idNo {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+}
+.DepartmentName {
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+}
+.PositionName {
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+}
+.BankAccount {
+  min-width: 150px;
+  width: 150px;
+  max-width: 150px;
+}
+.BankName {
+  min-width: 150px;
+  width: 150px;
+  max-width: 150px;
+}
+.Branch {
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+}
